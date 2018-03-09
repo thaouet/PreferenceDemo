@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="Preferneces"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_quitter"
+        android:title="Quitter"
+        android:orderInCategory="200" />
+</menu>

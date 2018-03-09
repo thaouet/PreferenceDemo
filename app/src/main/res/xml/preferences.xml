@@ -1,0 +1,26 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Categorie Preference A">
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="connexion au démarrage"
+                android:summary="Cocher si vous voulez vous connecter au démarrage de l'application" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Categorie Preference B">
+
+        <EditTextPreference
+                android:key="edittext_preference"
+                android:title="Serveur Distant"
+            android:dependency="checkbox_preference"
+                android:summary="Saisir l'adresse du serveur distant"
+                android:dialogTitle="Titre Boite de Dialogue Serveur Distant" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
